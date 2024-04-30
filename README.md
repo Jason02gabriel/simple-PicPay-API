@@ -8,7 +8,7 @@ Maven<br/>
 </h3>
 
 <br/><h2>EndPoints:</h2><br/>  
-<p>
+<h4>
 .[GET]/users:<br/>
 http://localhost:8080/users<br/>
 retorna todos os usuarios cadastrados no banco.<br/>
@@ -40,4 +40,4 @@ example:<br/>
   "receiverId": 0<br/>
 }<br/>
 esse endpoint é resposavel per efetuar um nova trasferencia.<br/>
-</p>
+</h4>
