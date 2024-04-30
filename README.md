@@ -7,7 +7,7 @@ Spring Boot<br/>
 Maven<br/>
 </h3>
 
-<br/>EndPoints:<br/>  
+<br/><h2>EndPoints:</h2><br/>  
 
 .[GET]/users:<br/>
 http://localhost:8080/users<br/>
