@@ -1,9 +1,11 @@
 <h1>Documentação do Projeto:</h1>
 
 <h2>Linguagens e Frameworks:  </h2><br/>
-.Java<br/>
-.Spring Boot<br/>
-.Maven<br/>
+<h3>
+Java<br/>
+Spring Boot<br/>
+Maven<br/>
+</h3>
 
 <br/>EndPoints:<br/>  
 
