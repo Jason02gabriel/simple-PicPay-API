@@ -1,9 +1,9 @@
 Documentação do Projeto:  
 
 Linguagens e Frameworks:  
-.Java
-.Spring Boot
-.Maven
+.Java,
+.Spring Boot,
+.Maven,
 
 EndPoints:  
 
