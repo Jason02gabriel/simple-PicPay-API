@@ -1,11 +1,13 @@
 package com.example.picpay.services;
 import com.example.picpay.domain.user.User;
 import com.example.picpay.domain.user.UserType;
+import com.example.picpay.dtos.UserDTO;
 import com.example.picpay.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Service
 public class UserService {
@@ -31,5 +33,16 @@ public class UserService {
 
     public void saveUser(User user) {
         this.userRepository.save(user);
+    }
+
+    public User createUser(UserDTO user) {
+
+        User newUser = new User(user);
+        this.saveUser(newUser);
+        return newUser;
+    }
+
+    public List<User> findAllUsers() {
+        return this.userRepository.findAll();
     }
 }
