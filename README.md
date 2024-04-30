@@ -1,6 +1,6 @@
 <h1>Documentação do Projeto:</h1>
 
-Linguagens e Frameworks:  <br/>
+<h2>Linguagens e Frameworks:  </h2><br/>
 .Java<br/>
 .Spring Boot<br/>
 .Maven<br/>
