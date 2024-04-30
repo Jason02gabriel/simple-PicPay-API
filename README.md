@@ -5,7 +5,7 @@
 .Spring Boot<br/>
 .Maven<br/>
 
-EndPoints:<br/>  
+<br/>EndPoints:<br/>  
 
 .[GET]/users:<br/>
 http://localhost:8080/users<br/>
