@@ -27,15 +27,15 @@ example:<br/>
 }<br/>
 esse endpoint é resonsavel pelo cadastro de novos usuarios.<br/>
 
-.[POST]/transaction:
-http://localhost:8080/transaction
-Content-Type: application/json
+.[POST]/transaction:<br/>
+http://localhost:8080/transaction<br/>
+Content-Type: application/json<br/>
 
-example:
-{
-  "value": {},
-  "senderId": 0,
-  "receiverId": 0
-}
-esse endpoint é resposavel per efetuar um nova trasferencia.
+example:<br/>
+{<br/>
+  "value": {},<br/>
+  "senderId": 0,<br/>
+  "receiverId": 0<br/>
+}<br/>
+esse endpoint é resposavel per efetuar um nova trasferencia.<br/>
 
